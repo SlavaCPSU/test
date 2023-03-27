@@ -1,0 +1,26 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    transition: 0.1s;
+}
+
+body {
+    display: flex;
+    background-color: black;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    cursor: pointer;
+}
+.main {
+    position: relative;
+    max-width: 1280px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+
+    /* border: 8px solid rosybrown; */
+}

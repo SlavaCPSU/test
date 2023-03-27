@@ -1,0 +1,31 @@
+.headerPets {
+    /* display: flex;
+    justify-content: center; */
+    /* margin: auto; */
+    display: flex;
+    /* justify-content: center;
+    flex-direction: column; */
+    max-width: 1280px;
+    height: 120px;
+    /* border: 1px red solid; */
+    background: #FFFFFF;
+    color: #545454 !important;
+}
+
+.headerPets header .logo .logoTitle,
+.headerPets header .navMenu li {
+    color: #545454;
+}
+
+.headerPets header .logo .logoSubstitile {
+    color: #292929;
+}
+
+.headerPets header ul a li:hover {
+    color: #292929;
+
+}
+
+.headerPets header ul a li:target {
+    color: #292929;
+}

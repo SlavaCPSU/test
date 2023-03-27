@@ -1,0 +1,234 @@
+.startScreen {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-basis: 1280px;
+    max-height: 908px;
+    /* background: linear-gradient(to bottom right, #F1CDB3, 5%, black); */
+
+    /* start-screen-gradient-background */
+
+    background: radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%)
+   
+        
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    max-height: 60px;
+    flex-basis: 1200px;
+    /* border: 1px wheat solid; */
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 30px;
+    /* left: 40px;
+    top: 30px;
+    border-radius: 0px; */
+    align-items: center;
+    /* margin-left: calc(50% - 1200px/2);
+    margin-top: calc(50% - 60px/2 - 1838px); */
+
+}
+
+header ul {
+    /* position: absolute; */
+    /* padding: 0px; */
+    display: flex;
+    flex-basis: 443px;
+    height: 27px;
+    /* left: 757px; */
+    /* top: 16px; */
+    justify-content: space-between;
+    align-items: center;
+    /* border: red 1px solid; */
+
+}
+
+header ul li {
+
+    /* line-height: 160%; */
+    /* identical to box height, or 24px */
+    list-style-type: none;
+
+    /* color-dark-s */
+
+    /* justify-content: center; */
+    color: hwb(0 80% 20%);
+
+}
+
+header ul a {
+    color: #CDCDCD;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    text-decoration: none;
+
+}
+
+header ul a li:hover {
+    color: white;
+    cursor: pointer;
+    /* border-bottom: #F1CDB3 3px solid; */
+}
+
+header ul a li:target {
+    color: white;
+    /* cursor: pointer; */
+    border-bottom: #F1CDB3 3px solid;
+}
+
+/* header ul a a li:target {
+    color: white;
+    
+    border-bottom: #F1CDB3 3px solid;
+} */
+
+
+.logo {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid blue; */
+}
+
+.logoTitle {
+    font-family: 'Georgia';
+    /* font-style: normal; */
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 110%;
+
+    /* or 35px */
+
+    /* display: flex;
+    align-items: center;
+    letter-spacing: 0.06em; */
+
+    /* color-primary */
+
+    color: #F1CDB3;
+}
+
+.logoSubstitile {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+
+    /* color-light-xl */
+
+    color: #FFFFFF;
+}
+
+.StartScreen-content {
+    /* position: absolute; */
+    display: flex;
+    margin-top: 90px;
+    margin-left: 45px;
+    margin-right: 35px;
+    max-width: 1200px;
+    max-height: 728px;
+    /* left: 40px; */
+    /* top: 180px; */
+    /* border: 1px red solid; */
+    /* align-items: center; */
+    justify-content: space-between;
+
+}
+
+.contenPuppy {
+    display: flex;
+    max-width: 460px;
+    /* max-height: 322px; */
+    /* left: 0px; */
+    top: 163px;
+    /* border: green 1px solid; */
+}
+
+.contentPuppy h2 {
+    /* display: flex; */
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    color: #FFFFFF;
+    line-height: 130%;
+    margin-top: 163px;
+    /* border: red solid 1px; */
+    max-width: 310px;
+}
+
+.contentPuppy p {
+    /* display: flex; */
+    color: #CDCDCD;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 42px;
+    line-height: 160%;
+    max-width: 460px;
+    /* border: red solid 1px; */
+
+}
+
+.start-screen-puppy {
+    /* position: absolute;
+    top: 180px; */
+    /* display: flex; */
+    max-width: 698px;
+    /* height: 728px; */
+    /* left: calc(50% - 698px/2 + 251px); */
+    /* bottom: 0px; */
+    /* border: 1px blue solid; */
+    /* background: url('./img/dog.png'); */
+}
+
+.start-screen-puppy img {
+    width: 100%;
+    margin: auto;
+}
+
+.btn {
+    width: 207px;
+    height: 52px;
+    margin-top: 42px;
+    /* left: calc(50% - 207px/2 - 126.5px); */
+    bottom: 0px;
+
+    /* color-primary */
+
+    background: #F1CDB3;
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25); */
+    border-radius: 100px;
+
+
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 130%;
+    /* identical to box height, or 22px */
+
+    letter-spacing: 0.06em;
+
+    /* color-dark-3xl */
+
+    color: #292929;
+
+}
+
+.btn:hover {
+    cursor: pointer;
+    scale: 1.05;
+}

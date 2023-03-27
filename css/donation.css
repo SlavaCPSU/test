@@ -1,0 +1,157 @@
+.donation {
+    background: #F6F6F6;
+    max-height: 462px;
+    flex-basis: 1280px;
+    display: flex;
+    /* border: 1px blue solid; */
+}
+
+.donationContent {
+    display: flex;
+    justify-content: space-between;
+    height: 282px;
+    flex-basis: 915px;
+    margin: auto;
+    margin-top: 80px;
+    /* border: 1px red solid; */
+}
+
+.donationDog {
+    max-height: 261px;
+    flex-basis: 505px;
+    /* left: 0px; */
+    margin-top: auto;
+    margin-bottom: auto;
+    /* border: 1px blue solid; */
+    /* background-image: url('./img/donation-dog.png'); */
+}
+
+.donationDog img {
+    width: 100%;
+    /* margin-top: 11px; */
+    /* margin-bottom: 10px; */
+    /* border: 1px red solid; */
+}
+
+.donationContentDog {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-height: 282px;
+    flex-basis: 380px;
+    /* border: 1px red solid; */
+}
+
+.donationContentDog h3 {
+    /* h3 */
+    /* height: 90px; */
+    max-width: 300px;
+    /* border: 1px blue solid; */
+
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    /* or 45px */
+
+    /* display: flex;
+    align-items: center; */
+    letter-spacing: 0.06em;
+
+    /* color-dark-l */
+
+    color: #545454;
+}
+
+.donationContentDog h5 {
+
+    /* max-width: 307px; */
+    /* margin-top: calc(20/282*100%); */
+    /* height: 17px; */
+    /* h5 */
+
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 110%;
+    /* identical to box height, or 17px */
+
+    /* display: flex;
+    align-items: center; */
+    letter-spacing: 0.06em;
+
+    /* color-dark-l */
+
+    color: #545454;
+    /* border: 1px red solid; */
+}
+
+.donationContentDogCredit-card {
+    display: flex;
+    /* flex-direction: column;
+    align-items: center; */
+    /* padding: 10px 15px;
+    gap: 10px; */
+
+    /* position: absolute; */
+    /* margin-top: calc(20/282*100%); */
+    max-width: 349px;
+    height: 43px;
+    /* left: 0px;
+    top: 147px; */
+
+    /* color-primary */
+
+    background: #F1CDB3;
+    border-radius: 9px;
+    /* border: 1px red solid; */
+}
+
+.donationContentDogCredit-card a {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    /* border: 1px blue solid; */
+    margin: auto;
+}
+
+.donationContentDogCredit-card a h4 {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    /* identical to box height, or 23px */
+
+    /* display: flex;
+    align-items: center; */
+    letter-spacing: 0.06em;
+
+    /* color-dark-l */
+
+    color: #545454;
+}
+
+.donationContentDog p {
+    /* margin-top: 20px; */
+    /* border: 1px solid blue; */
+    width: 380px;
+    height: 72px;
+    left: 0px;
+    top: 210px;
+    /* donation-description */
+    font-family: 'Arial';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    /* or 150% */
+    display: flex;
+    align-items: center;
+
+    /* color-dark-m */
+    color: #B2B2B2;
+
+}

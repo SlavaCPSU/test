@@ -1,0 +1,108 @@
+.ourPets {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 1280px;
+    /* border: 1px solid red; */
+}
+
+.ourPetsPets {
+
+    max-width: 1280px;
+    min-height: 1342px;
+    /* color-light-l */
+    background: #F6F6F6;
+    display: flex;
+    /* border: 1px solid blue; */
+}
+
+.ourPetsContent {
+    display: flex;
+    flex-direction: column;
+    max-width:  1200px;
+    min-height: 1162px;
+    /* margin-left: calc(50% - 1200px/2); */
+    margin: auto;
+    margin-top: 80px;
+
+
+    /* border: 3px solid #148736; */
+}
+
+.ourPetsContent h3 {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    /* or 45px */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+
+    /* color-dark-l */
+    color: #545454;
+
+    /* border: 1px solid blue; */
+
+    flex-basis: 400px;
+    max-height: 90px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.ourPetsCardsConttainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    min-height: 930px;
+
+    /* border: 1px solid red; */
+}
+
+.ourPetsNavigation {
+    height: 52px;
+    width: 340px;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    margin: auto;
+    margin-top: 45px;
+    /* margin-bottom: 100px; */
+}
+
+.petsNavBtn {
+    height: 52px;
+    width: 52px;
+    box-sizing: border-box;
+    border: 2px solid #CDCDCD;
+    border-radius: 100px;
+
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    /* identical to box height, or 23px */
+
+    letter-spacing: 0.06em;
+
+
+    /* display: flex;
+    align-items: center;
+    text-align: center; */
+
+}
+
+.NavBtnEffect:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background: #F1CDB3;
+}

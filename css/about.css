@@ -1,0 +1,103 @@
+.about {
+    flex-basis: 1280px;
+    max-height: 588px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    /* border: 5px red solid; */
+}
+
+.aboutPetsContent {
+    display: flex;
+    justify-content: center;
+    flex-basis: 1200px;
+    max-height: 408px;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-top: 19.6%; */
+    /* border: 2px red solid; */
+
+}
+
+.aboutPets {
+    /* position: relative; */
+    display: flex;
+    max-width: 300px;
+    max-height: 408px;
+    /* margin-left: calc(175/1200*100%); */
+    margin-right: calc(120/1280*100%);
+    
+
+}
+
+.aboutPets img {
+    width: 100%;
+    /* border: 1px blue solid; */
+}
+
+.aboutContent {
+    /* position: absolute; */
+    flex-basis: 430px;
+    max-height: 380px;
+    /* margin-right: calc(175/1200*100%); */
+    margin-top: calc(14/908*100%);
+    /* border: 1px blue solid; */
+    flex-direction: column;
+
+}
+
+.aboutContent h3 {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    /* or 45px */
+
+    display: flex;
+    align-items: center;
+    
+    letter-spacing: 0.06em;
+
+    /* color-dark-l */
+
+    color: #545454;
+
+}
+
+.aboutContentP1 {
+    /* paragraph-l */
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    /* or 24px */
+
+
+    /* color-dark-xl */
+
+    color: #4C4C4C;
+    margin-top: calc(25/380*100%);
+}
+
+.aboutContentP2 {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    /* or 24px */
+
+    /* display: flex;
+    align-items: center; */
+
+    /* color-dark-xl */
+
+    color: #4C4C4C;
+
+    margin-top: calc(25/380*100%);
+    /* margin-bottom: 0px; */
+}

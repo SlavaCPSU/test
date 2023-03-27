@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OurPets</title>
+    <link rel="icon" href="./img/icon.svg" type="image/x-icon">
+
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/body.css">
+    <link rel="stylesheet" href="./css/start.css">
+    <link rel="stylesheet" href="./css/ourPetsHeader.css">
+    <link rel="stylesheet" href="./css/pets.css">
+    <link rel="stylesheet" href="./css/ourPets.css">
+    <script rel="script" src="./js/myScript.js"></script>
+
+    <script>
+        window.onload = function () {
+            document.getElementById("m2").click();
+        }
+    </script>
+
+</head>
+
+<body>
+
+    <div class="ourPets">
+        <div class="headerPets">
+            <header>
+                <a href="#" class="logo">
+                    <p class="logoTitle">Cozy House</p>
+                    <p class="logoSubstitile">Shelter for pets in Boston</p>
+                </a>
+                <ul class="navMenu">
+
+                    <a id="m1" href="#s1" onclick="goToPage('index.html'), menu2Target1()">
+                        <li id="s1">About the shelter</li>
+                    </a>
+
+                    <a id="m2" href="#s2" onclick="menu2Target1()">
+                        <li id="s2">Our pets</li>
+                    </a>
+
+
+                    <a id="m3" href="index.html#helpDiv" onclick="menu2Target3()">
+                        <li id="s3">Help the shelter</li>
+                    </a>
+
+                    <a id="m4" href="#footer" onclick="menu2Target4()">
+                        <li id="s4">Contacts</li>
+                    </a>
+
+
+
+                    <!-- <a href="#s1" onclick="goToPage('index.html')">
+                        <li id="s1">About the shelter</li>
+                    </a>
+  
+                    <a id="m2" href="#s2" onclick="">
+                        <li id="s2">Our pets</li>
+                    </a>
+           
+                    <a href="#s3">
+                        <li id="s3">Help the shelter</li>
+                    </a>
+                    <a href="#s4">
+                        <li id="s4">Contacts</li>
+                    </a> -->
+                </ul>
+            </header>
+        </div>
+
+        <div class="ourPetsPets">
+            <div class="ourPetsContent">
+                <h3>Our friends who<br>are looking for a house</h3>
+                <div class="ourPetsCardsConttainer">
+
+
+                    <div class="card">
+                        <div>
+                            <img src="./img/pets-katrine.jpg" alt="katrine">
+                        </div>
+
+                        <p>Katrine</p>
+                        <button class="cardBtn">Learn more</button>
+                    </div>
+                    <div class="card">
+                        <img src="./img/pets-jennifer.jpg" alt="jennifer">
+                        <p>Jennifer</p>
+                        <button class="cardBtn">Learn more</button>
+                    </div>
+
+                    <div class="card">
+                        <img src="./img/pets-woody.jpg" alt="woody">
+                        <p>Woody</p>
+                        <button class="cardBtn">Learn more</button>
+                    </div>
+                  
+                    <div class="card">
+                        <img src="./img/pets-sophia.jpg" alt="sophia">
+                        <p>Sophia</p>
+                        <button class="cardBtn">Learn more</button>
+                    </div>
+                    
+                    <div class="card">
+                        <img src="./img/pets-timmy.jpg" alt="Timmy">
+                        <p>Timmy</p>
+                        <button class="cardBtn">Learn more</button>
+                    </div>
+
+                    <div class="card">
+                        <img src="./img/pets-charly.jpg" alt="Charly">
+                        <p>Charly</p>
+                        <button class="cardBtn">Learn more</button>
+                    </div>
+
+                    <div class="card">
+                        <img src="./img/pets-scarlet.jpg" alt="Scarlett">
+                        <p>Scarlett</p>
+                        <button class="cardBtn">Learn more</button>
+                    </div>
+
+                    <div class="card">
+                        <img src="./img/pets-freddie.jpg" alt="Freddie">
+                        <p>Freddie</p>
+                        <button class="cardBtn">Learn more</button>
+                    </div>
+
+                </div>
+
+                <div class="ourPetsNavigation">
+                    <button style=" border: 2px solid #CDCDCD; color: #CDCDCD;" class="petsNavBtn">&#60;&#60;</button>
+                    <button style=" border: 2px solid #CDCDCD; color: #CDCDCD;" class="petsNavBtn">&#60;</button>
+                    <button style="background: #F1CDB3; scale: none;" class="petsNavBtn">1</button>
+                    <button style="border: 2px solid #F1CDB3;color: #292929;" class="petsNavBtn NavBtnEffect">&#62;</button>
+                    <button style="border: 2px solid #F1CDB3;color: #292929;" class="petsNavBtn NavBtnEffect">&#62;&#62;</button>
+                </div>
+
+            </div>
+        </div>
+
+        <footer id="footer">
+            <div class="footerContent">
+                <div class="footerContentContacts">
+                    <h3>For questions and suggestions</h3>
+                    <a href="#" class="footerContentContactsMail">
+                        <img src="./img/mail.svg" alt="mail">
+                        <h4>email@shelter.com</h4>
+                    </a>
+                    <a href="#" class="footerContentContactsPhone">
+                        <img src="./img/phone.svg" alt="phone">
+                        <h4>+13 674 567 75 54</h4>
+                    </a>
+                </div>
+
+                <div class="footerContentLocations">
+                    <h3>We are waiting for your visit</h3>
+                    <a href="#" class="footerContentLocationsAdress">
+                        <img src="./img/pin.svg" alt="pin">
+                        <h4>1 Central Street, Boston (entrance from the store)</h4>
+                    </a>
+
+                    <a href="#" class="footerContentLocationsAdress">
+                        <img src="./img/pin.svg" alt="pin">
+                        <h4>18 South Park, London</h4>
+                    </a>
+                </div>
+
+            </div>
+        </footer>
+    </div>
+
+
+</body>
+
+</html>

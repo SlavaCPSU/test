@@ -1,0 +1,241 @@
+.pets {
+    /* position: absolute; */
+    flex-basis: 1280px;
+    max-height: 877px;
+
+
+    /* color-light-l */
+
+    background: #F6F6F6;
+    display: flex;
+    /* border: 1px solid blue; */
+}
+
+.petsContent {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 1200px;
+    max-height: 697px;
+    /* margin-left: calc(50% - 1200px/2); */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    /* border: 1px solid red; */
+}
+
+.petsContent h3 {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    /* or 45px */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+
+    /* color-dark-l */
+    color: #545454;
+
+    /* border: 1px solid blue; */
+
+    flex-basis: 400px;
+    max-height: 90px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.petsContentSlider {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 1200px;
+    max-height: 435px;
+    /* border: 1px solid blue; */
+
+}
+
+.petsSliderBtn {
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 23px 19px;
+
+    /* position: absolute; */
+    width: 52px;
+    height: 52px;
+    left: 0px;
+    top: 192px;
+
+    /* color-primary */
+
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.petsSliderBtn:hover {
+    background: #FDDCC4;
+    cursor: pointer;
+    scale: 1.1;
+
+}
+
+.cards {
+    margin-right: calc(53/1200*100%);
+    margin-left: calc(53/1200*100%);
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 270px;
+    max-height: 435px;
+    /* left: 105px;
+    top: 0px; */
+
+    /* color-light-s */
+
+    background: #FAFAFA;
+    border-radius: 9px;
+}
+
+
+.card p {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    /* color-dark-l */
+    color: #545454;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 30px;
+
+
+
+}
+
+.card img {
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+.cardBtn {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 130%;
+    /* identical to box height, or 22px */
+
+    /* letter-spacing: 0.06em; */
+
+    /* color-dark-3xl */
+
+    color: #292929;
+
+
+    /* Auto layout */
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 45px;
+    gap: 10px;
+
+    width: 187px;
+    height: 52px;
+
+    /* color-primary */
+
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: auto;
+    margin-bottom: 30px;
+
+
+
+}
+
+.card:hover {
+    /* background: #FFFFFF; */
+    scale: 1.02;
+}
+/* .card:hover > div{
+    background: #FFFFFF;
+    background-blend-mode: difference;
+} */
+
+.cardBtn:hover {
+    background: #FDDCC4;
+    cursor: pointer;
+    scale: 1.05;
+}
+
+.petsBtn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 45px;
+    gap: 10px;
+
+    /* position: absolute; */
+    width: 261px;
+    height: 52px;
+    /* left: 470px;
+    top: 645px; */
+    margin: auto;
+    /* margin-top: 60px; */
+
+    /* color-primary */
+
+    background: #F1CDB3;
+    border-radius: 100px;
+
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 130%;
+    color: #292929;
+}
+
+.petsBtn:hover {
+    cursor: pointer;
+    scale: 1.05;
+    
+}
